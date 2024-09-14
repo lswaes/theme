@@ -1,0 +1,434 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#fff",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#0b0b12",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#e186a2",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#34495E",
+					"name": "Secondary"
+				},
+				{
+					"slug": "background-secondary",
+					"color": "#15151c",
+					"name": "Secondary Background"
+				},
+				{
+					"slug": "body-text",
+					"color": "#A9AFC3",
+					"name": "Body Text"
+				},
+				{
+					"color": "#13255b",
+					"name": "Blue Dark",
+					"slug": "blue-dark"
+				},
+				{
+					"color": "#fff",
+					"name": "Heading",
+					"slug": "heading"
+				},
+				{
+					"color": "#fff",
+					"name": "Text Link",
+					"slug": "text-link"
+				},
+				{
+					"color": "#222",
+					"name": "Border",
+					"slug": "border"
+				},
+				{
+					"color": "#212121",
+					"name": "Input Field",
+					"slug": "input-field"
+				},
+				{
+					"color": "#1A5590",
+					"name": "Blue",
+					"slug": "blue"
+				},
+				{
+					"color": "#333333",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#777",
+					"name": "Boulder",
+					"slug": "boulder"
+				},
+				{
+					"color": "#7d6043",
+					"name": "coffee",
+					"slug": "coffee"
+				},
+				{
+					"color": "#25d6a2",
+					"name": "Cyan",
+					"slug": "cyan"
+				},
+				{
+					"color": "#1D1634",
+					"name": "Dark Blue",
+					"slug": "dark-blue"
+				},
+				{
+					"color": "#30b4da",
+					"name": "Sky Blue",
+					"slug": "sky-blue"
+				},
+				{
+					"color": "#0fb36c",
+					"name": "Dark Green",
+					"slug": "dark-green"
+				},
+				{
+					"color": "#6ba518",
+					"name": "Lite Green",
+					"slug": "lite-green"
+				},
+				{
+					"color": "#c74a73",
+					"name": "Purple",
+					"slug": "purple"
+				},
+				{
+					"color": "#9261c6",
+					"name": "Dark Purple",
+					"slug": "dark-purple"
+				},
+				{
+					"color": "#f78550",
+					"name": "Orange",
+					"slug": "orange"
+				},
+				{
+					"color": "#f9556d",
+					"name": "Lite Red",
+					"slug": "lite-red"
+				},
+				{
+					"color": "#27808c",
+					"name": "Hexadecimal",
+					"slug": "hexadecimal"
+				},
+				{
+					"color": "#ff6b98",
+					"name": "Pink",
+					"slug": "pink"
+				},
+				{
+					"color": "#fcd576",
+					"name": "Button Primary",
+					"slug": "button-primary"
+				},
+				{
+					"color": "#b7e3db",
+					"name": "Secondary dark Background",
+					"slug": "background-secondary-dark"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "750px",
+			"wideSize": "1300px"
+		},
+		"typography": {
+			"dropCap": false,
+			"fontFamilies": [
+	
+				{
+					"fontFamily": "\"Poppins\", serif",
+					"name": "Poppins",
+					"slug": "poppins",
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Light.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Medium.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-MediumItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-SemiBold.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Bold.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-ExtraBold.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/poppins/Poppins-Black.woff2"
+							]
+						}
+					]
+				},
+			
+				{
+					"fontFamily": "\"Dancing Script\", cursive",
+					"name": "Dancing Script",
+					"slug": "dancing-script",
+					"fontFace": [
+						{
+							"fontFamily": "Dancing Script",
+							"fontWeight": "300 400 500 600 700 800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/dancing-script/DancingScript-VariableFont_wght.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Oswald\", sans-serif",
+					"name": "Oswald",
+					"slug": "oswald",
+					"fontFace": [
+						{
+							"fontFamily": "Oswald",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/oswald/Oswald-Medium.woff2"
+							]
+						},
+						{
+							"fontFamily": "Oswald",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/oswald/Oswald-Bold.woff2"
+							]
+						}
+					]
+				}
+				
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"name": "Section Title",
+					"size": "clamp(36px,3vw,45px)",
+					"slug": "slider-title"
+				},
+				{
+					"name": "Normal",
+					"size": "1rem",
+					"slug": "normal"
+				},
+				{
+					"name": "Medium",
+					"size": "1.7rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "clamp(1.75rem, 3vw, 2.375rem)",
+					"slug": "large"
+				},
+				{
+					"name": "Huge",
+					"size": "clamp(1.5625rem, 1.0625rem + 2.5vw, 3rem)",
+					"slug": "huge"
+				},
+				{
+					"name": "Gigantic",
+					"size": "clamp(2rem, 6vw, 4rem)",
+					"slug": "gigantic"
+				},
+				{
+					"name": "Colossal",
+					"size": "clamp(4rem, 8vw, 6.25rem)",
+					"slug": "colossal"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontStyle": "normal",
+					"fontWeight": "500"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--heading)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--text-link)"
+				},
+				"typography": {
+					"textDecoration": "none"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "none"
+					},
+					"color": {
+						"text": "var(--wp--preset--color--primary)"
+					}
+				},
+				":focus": {
+					"typography": {
+						"textDecoration": "none"
+					},
+					"color": {
+						"text": "var(--wp--preset--color--primary)"
+					}
+				},
+				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--primary)"
+					},
+					"typography": {
+						"textDecoration": "none"
+					}
+				}
+			},
+			"button": {
+				"spacing": {
+					"padding": {
+						"left": "clamp(1.875rem, 1.5489rem + 1.6304vw, 0.8125rem)",
+						"right": "clamp(1.875rem, 1.5489rem + 1.6304vw, 0.8125rem)",
+						"top": "clamp(0.625rem, -2.462rem + -4.5652vw, -1.125rem)",
+						"bottom": "clamp(0.625rem, -2.462rem + -4.5652vw, -1.125rem)"
+					}
+				},
+				"border": {
+					"radius": "100px",
+					"width": "0px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary)",
+						"text": "var(--wp--preset--color--white)"
+					}
+				},
+				":focus": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary)",
+						"text": "var(--wp--preset--color--white)"
+					}
+				},
+				":active": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary)",
+						"text": "var(--wp--preset--color--white)"
+					}
+				},
+				":visited": {
+					"color": {
+						"background": "var(--wp--preset--color--primary)",
+						"text": "var(--wp--preset--color--white)"
+					}
+				},
+				"typography": {
+					"lineHeight": "1.7",
+					"letterSpacing": "0",
+					"fontSize": "17px",
+					"fontWeight": "400",
+					"fontFamily": "var(--wp--preset--font-family--oswald)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--poppins)",
+			"fontSize": "16px",
+			"fontWeight": "var(--wp--custom--typography--font-weight--normal)"
+		}
+	}
+}
